@@ -36,9 +36,12 @@ footer p {
 
 /* button */
 a.create-orphanage {
+    z-index: 10;
+
     position: absolute;
     right: 4rem;
     bottom: 4rem;
+
 
     width: 6.4rem;
     height: 6.4rem;
@@ -96,4 +99,6 @@ a.create-orphanage:hover {
 
 .leaflet-container {
     font: 700 2rem/1 'Nunito', sans-serif;
+
+    z-index: 5;
 }
