@@ -32,6 +32,8 @@ footer p {
 #mapid {
     height: 100%;
     width: 100%;
+
+    animation-delay: 200ms;
 }
 
 /* button */
